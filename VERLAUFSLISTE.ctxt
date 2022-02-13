@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=VERLAUFSLISTE
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ VERLAUFSLISTE.\r\n\ \r\n\ @author\ (STA)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=
+comment1.target=VERLAUFSLISTE()
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ VERLAUFSLISTE\r\n
+comment2.params=nameNeu\ scoreNeu
+comment2.target=void\ EintragEinfuegen(java.lang.String,\ int)
+numComments=3

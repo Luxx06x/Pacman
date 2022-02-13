@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=LABYRINTH
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ LABYRINTH.\r\n\ \r\n\ @author\ Lukas\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=hoeheNeu\ breiteNeu
+comment1.target=LABYRINTH(int,\ int)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ LABYRINTH\r\n
+comment2.params=
+comment2.target=void\ GaengeErstellen()
+comment3.params=
+comment3.target=int\ BreiteGeben()
+comment4.params=
+comment4.target=int\ HoeheGeben()
+comment5.params=X\ Y
+comment5.target=boolean\ IstWand(int,\ int)
+numComments=6

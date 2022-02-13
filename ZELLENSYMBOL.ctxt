@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ZELLENSYMBOL
+comment0.text=\r\n\r\nDiese\ Klasse\ dient\ zur\ Dastellung\ einer\ ZELLE.\ Dabei\ ist\ darauf\ zu\ achten,\ dass\r\ndie\ ZELLENDARSTELLUNG\ erst\ sichtbar\ wird,\ wenn\ ihr\ x-\ und\ y-Position\ &uuml;bergeben\ wurden.\r\nEinmal\ &uuml;bergeben,\ lassen\ sich\ die\ Koordinaten\ nicht\ mehr\ &auml;ndern.\r\nWillst\ Du\ z.B.\ die\ mit\ Mausklicks\ die\ ZELLE\ ver&auml;ndern,\ musst\ Du\ sie\ zuerst\ an\ das\ backend\ &uuml;bergeben.\r\nNutze\ dazu\ die\ Methode\ Anmelden().\r\n\r\n@author\ Sebastian\ Zinkhahn\r\n
+comment1.params=xNeu\ yNeu
+comment1.target=ZELLENSYMBOL(int,\ int)
+comment1.text=\r\n\ Erzeugt\ eine\ Zelle\ mit\ der\ angebeneben\ x-\ und\ y-Position\ im\ Labyrinth\r\n\ @param\ xNeu\r\n\ @param\ yNeu\r\n
+comment2.params=farbeNeu
+comment2.target=void\ FuellFarbeSetzen(java.lang.String)
+comment2.text=\r\n\ &Auml;ndert\ die\ F&uuml;llfarbe\ dieses\ Symbols\r\n\ @see\ KruemelDarstellungImpl\#FarbeSetzen(java.lang.String)\r\n
+comment3.params=farbeNeu
+comment3.target=void\ RandFarbeSetzen(java.lang.String)
+comment3.text=\r\n\ &Auml;ndert\ die\ Randfarbe\ dieses\ Symbols\r\n\ @see\ backend.view.DarstellungImpl\#RandFarbeSetzen(java.lang.String)\r\n
+comment4.params=b
+comment4.target=void\ FuellungSichtbarSetzen(boolean)
+comment4.text=\r\n\ Gibt\ an\ ob\ das\ Symbol\ ausgef&uuml;llt\ werden\ soll\r\n\ @see\ backend.view.DarstellungImpl\#FuellungSichtbarSetzen(boolean)\r\n
+comment5.params=b
+comment5.target=void\ RandSichtbarSetzen(boolean)
+comment5.text=\r\n\ Gibt\ ob\ der\ Rand\ des\ Symbols\ gezeichnet\ werden\ soll\r\n\ @see\ backend.view.DarstellungImpl\#RandSichtbarSetzen(boolean)\r\n
+numComments=6

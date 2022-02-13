@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=PUNKTELISTEANZEIGE
+comment0.text=\r\n\ Diese\ Klasse\ dient\ zum\ Ver&auml;ndern\ der\ Anzeige\ der\ Punkteliste.\ Diese\ Punkteliste\ kann\r\n\ &uuml;ber\ das\ Menue\ sichtbar\ gemacht\ werden.\r\n\ \r\n\ @author\ Thomas\ Guentner\ \r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=PUNKTELISTEANZEIGE()
+comment1.text=\r\n\ Konstructor\ fuer\ Objekte\ der\ Klasse\ PUNKTELISTEANZEIGE\r\n
+comment2.params=namensListe\ punkteListe
+comment2.target=void\ Aktualisieren(java.lang.String[],\ int[])
+comment2.text=\r\n\ Mit\ dieser\ Methode\ kann\ eine\ neue\ Punkteliste\ mit\ Punkteintraegen\ an\ die\ PunktelisteAnzeige\ uebergeben\ werden.\r\n\ \r\n\ @param\ \ namensliste,\ punkteliste\ \ \ \r\n
+comment3.params=ueberschriftNeu
+comment3.target=void\ UeberschriftSetzen(java.lang.String)
+comment3.text=\r\n\ Mit\ dieser\ Methode\ kann\ eine\ neue\ Ueberschrift\ fuer\ die\ Punkteliste\ gesetzt\ werden.\r\n\ \r\n\ @param\ ueberschriftNeu\r\n
+comment4.params=schriftart
+comment4.target=void\ SchriftartSetzen(java.awt.Font)
+comment4.text=\r\n\ Dient\ zum\ Setzen\ der\ Schriftart\ der\ PunkteListe\r\n\ @param\ Font\ schriftart\r\n
+comment5.params=farbe
+comment5.target=void\ SchriftfarbeSetzen(java.lang.String)
+comment5.text=\r\n\ Dient\ zum\ setzen\ der\ Schriftfarbe\ der\ PunkteListe\r\n\ @param\ String\ schriftfarbe\r\n
+numComments=6
