@@ -15,11 +15,11 @@ public class LABYRINTH
     /**
      * Konstruktor für Objekte der Klasse LABYRINTH
      */
-    public LABYRINTH(int hoeheNeu, int breiteNeu)
+    public LABYRINTH() //int hoeheNeu, int breiteNeu
     {
         // Instanzvariable initialisieren
-        hoehe = hoeheNeu;
-        breite = breiteNeu;
+        hoehe = 10; //hoeheNeu;
+        breite = 10; //breiteNeu;
         spielFläche = new ZELLE[breite][hoehe];
         //in die Schublade 0 0 des Schranks spielFlaeche soll
         // eine Zelle mit den Koordinaten (0,0) gelegt werden.

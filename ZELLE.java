@@ -23,11 +23,12 @@ public class ZELLE
         positionX=positionXNeu;
         positionY=positionYNeu;
         istMauer=true;
-        kruemel = new KRUEMEL(positionXNeu, positionYNeu);
         
         anzeige= new ZELLENSYMBOL(positionX, positionY);
         anzeige.FuellFarbeSetzen("blau");
         anzeige.FuellungSichtbarSetzen(true);
+        
+        kruemel = new KRUEMEL(positionXNeu, positionYNeu);
     }
 
     void MauerSetzen(boolean istMauerNeu)
