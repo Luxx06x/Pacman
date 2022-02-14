@@ -12,6 +12,7 @@ public class ZELLE
     int positionY;
     boolean istMauer;
     ZELLENSYMBOL anzeige;
+    KRUEMEL kruemel;
 
     /**
      * Konstruktor für Objekte der Klasse ZELLE
@@ -21,8 +22,9 @@ public class ZELLE
         // Instanzvariable initialisieren
         positionX=positionXNeu;
         positionY=positionYNeu;
-        istMauer=true
-        ;
+        istMauer=true;
+        kruemel = new KRUEMEL(positionXNeu, positionYNeu);
+        
         anzeige= new ZELLENSYMBOL(positionX, positionY);
         anzeige.FuellFarbeSetzen("blau");
         anzeige.FuellungSichtbarSetzen(true);

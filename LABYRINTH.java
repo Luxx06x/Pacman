@@ -10,7 +10,7 @@ public class LABYRINTH
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
     int hoehe;
     int breite;
-    ZELLE[][] spielFlaeche;
+    ZELLE[][] spielFläche;
     
     /**
      * Konstruktor für Objekte der Klasse LABYRINTH
@@ -20,7 +20,7 @@ public class LABYRINTH
         // Instanzvariable initialisieren
         hoehe = hoeheNeu;
         breite = breiteNeu;
-        spielFlaeche = new ZELLE[breite][hoehe];
+        spielFläche = new ZELLE[breite][hoehe];
         //in die Schublade 0 0 des Schranks spielFlaeche soll
         // eine Zelle mit den Koordinaten (0,0) gelegt werden.
         //spielFlaeche[0][0] = new ZELLE(0,0);
@@ -28,7 +28,7 @@ public class LABYRINTH
         {
             for(int zaehlerX = 0; zaehlerX < breite; zaehlerX = zaehlerX + 1)
             {
-                spielFlaeche[zaehlerX][zaehlerY] = new ZELLE(zaehlerX,zaehlerY);
+                spielFläche[zaehlerX][zaehlerY] = new ZELLE(zaehlerX,zaehlerY);
             }
         }
         
@@ -38,11 +38,59 @@ public class LABYRINTH
     //Die Methode erzeugt in einem 10x10-Labyrinth Wege
     void GaengeErstellen()
     {
-        spielFlaeche[1][1].MauerSetzen(false);
-        for(int zaehler = 1; zaehler <= 8; zaehler = zaehler +1)
-        {
-            spielFlaeche[5][zaehler].MauerSetzen(false);
-        }
+        spielFläche[1][1].MauerSetzen(false);
+        spielFläche[3][1].MauerSetzen(false);
+        spielFläche[4][1].MauerSetzen(false);
+        spielFläche[5][1].MauerSetzen(false);
+        spielFläche[6][1].MauerSetzen(false);
+        spielFläche[8][1].MauerSetzen(false);
+        
+        spielFläche[1][2].MauerSetzen(false);
+        spielFläche[2][2].MauerSetzen(false);
+        spielFläche[3][2].MauerSetzen(false);
+        spielFläche[5][2].MauerSetzen(false);
+        spielFläche[6][2].MauerSetzen(false);
+        spielFläche[7][2].MauerSetzen(false);
+        spielFläche[8][2].MauerSetzen(false);
+        
+        spielFläche[1][3].MauerSetzen(false);
+        spielFläche[3][3].MauerSetzen(false);
+        spielFläche[4][3].MauerSetzen(false);
+        spielFläche[8][3].MauerSetzen(false);
+        
+        spielFläche[1][4].MauerSetzen(false);
+        spielFläche[4][4].MauerSetzen(false);
+        spielFläche[5][4].MauerSetzen(false);
+        spielFläche[6][4].MauerSetzen(false);
+        spielFläche[7][4].MauerSetzen(false);
+        spielFläche[8][4].MauerSetzen(false);
+        
+        spielFläche[1][5].MauerSetzen(false);
+        spielFläche[2][5].MauerSetzen(false);
+        spielFläche[3][5].MauerSetzen(false);
+        spielFläche[4][5].MauerSetzen(false);
+        spielFläche[8][5].MauerSetzen(false);
+        
+        spielFläche[1][6].MauerSetzen(false);
+        spielFläche[3][6].MauerSetzen(false);
+        spielFläche[4][6].MauerSetzen(false);
+        spielFläche[5][6].MauerSetzen(false);
+        spielFläche[6][6].MauerSetzen(false);
+        spielFläche[8][6].MauerSetzen(false);
+        
+        spielFläche[1][7].MauerSetzen(false);
+        spielFläche[4][7].MauerSetzen(false);
+        spielFläche[6][7].MauerSetzen(false);
+        spielFläche[8][7].MauerSetzen(false);
+        
+        spielFläche[1][8].MauerSetzen(false);
+        spielFläche[2][8].MauerSetzen(false);
+        spielFläche[3][8].MauerSetzen(false);
+        spielFläche[4][8].MauerSetzen(false);
+        spielFläche[5][8].MauerSetzen(false);
+        spielFläche[6][8].MauerSetzen(false);
+        spielFläche[7][8].MauerSetzen(false);
+        spielFläche[8][8].MauerSetzen(false);
     }
     
     int BreiteGeben()
@@ -57,6 +105,6 @@ public class LABYRINTH
     
     boolean IstWand(int X, int Y)
     {
-        return spielFlaeche[X][Y].IstWandGeben();
+        return spielFläche[X][Y].IstWandGeben();
     }
     }

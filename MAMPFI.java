@@ -22,8 +22,8 @@ public class MAMPFI
     public MAMPFI(LABYRINTH labNeu)
     {
         // Initialisierung
-        xPosition = 5;
-        yPosition = 5;
+        xPosition = 1;
+        yPosition = 1;
         blickrichtung = 'O';
         verwundbar = true;
         anzeige = new MAMPFISYMBOL();
@@ -144,7 +144,7 @@ public class MAMPFI
     void NachSuedenGehen()
     {
         NachSuedenBlicken();
-        if (!labyrinth.IstWand(xPosition, yPosition-1))
+        if (!labyrinth.IstWand(xPosition, yPosition+1))
         {
             if (yPosition < labyrinth.HoeheGeben()-1)
             {
