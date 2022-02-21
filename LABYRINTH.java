@@ -11,15 +11,16 @@ public class LABYRINTH
     int hoehe;
     int breite;
     ZELLE[][] spielFläche;
+    //KRUEMEL kruemel;
     
     /**
      * Konstruktor für Objekte der Klasse LABYRINTH
      */
-    public LABYRINTH() //int hoeheNeu, int breiteNeu
+    public LABYRINTH(int hoeheNeu, int breiteNeu)
     {
         // Instanzvariable initialisieren
-        hoehe = 10; //hoeheNeu;
-        breite = 10; //breiteNeu;
+        hoehe = hoeheNeu;
+        breite = breiteNeu;
         spielFläche = new ZELLE[breite][hoehe];
         //in die Schublade 0 0 des Schranks spielFlaeche soll
         // eine Zelle mit den Koordinaten (0,0) gelegt werden.
@@ -29,6 +30,7 @@ public class LABYRINTH
             for(int zaehlerX = 0; zaehlerX < breite; zaehlerX = zaehlerX + 1)
             {
                 spielFläche[zaehlerX][zaehlerY] = new ZELLE(zaehlerX,zaehlerY);
+                //kruemel = new KRUEMEL(zaehlerX, zaehlerY);
             }
         }
         

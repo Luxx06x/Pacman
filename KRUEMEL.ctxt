@@ -1,11 +1,11 @@
 #BlueJ class context
 comment0.target=KRUEMEL
-comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ KRUEMEL.\r\n\ \r\n\ @author\ Lukas\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ KRUEMEL.\r\n\ \r\n\ @author\ Lukas\r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
 comment1.params=positionXNeu\ positionYNeu
 comment1.target=KRUEMEL(int,\ int)
 comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ KRUEMEL\r\n
-comment2.params=machtVerwundbarSetzen
-comment2.target=void\ machtVerwundbarSetzen(boolean)
+comment2.params=machtUnverwundbarNeu
+comment2.target=void\ MachtUnverwundbarSetzen(boolean)
 comment3.params=
-comment3.target=boolean\ machtVerwundbarGeben()
+comment3.target=boolean\ MachtUnverwundbarGeben()
 numComments=4

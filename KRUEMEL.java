@@ -2,7 +2,7 @@
 /**
  * Beschreiben Sie hier die Klasse KRUEMEL.
  * 
- * @author Lukas 
+ * @author Lukas
  * @version (eine Versionsnummer oder ein Datum)
  */
 public class KRUEMEL
@@ -10,8 +10,9 @@ public class KRUEMEL
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
     int positionX;
     int positionY;
-    boolean machtVerwundbar;
+    boolean machtUnverwundbar;
     KRUEMELSYMBOL kSymbol;
+    
 
     /**
      * Konstruktor für Objekte der Klasse KRUEMEL
@@ -21,16 +22,15 @@ public class KRUEMEL
         // Instanzvariable initialisieren
         positionX = positionXNeu;
         positionY = positionYNeu;
-    }
-
-    void machtVerwundbarSetzen(boolean machtVerwundbarSetzen)
-    {
-        machtVerwundbar = machtVerwundbarSetzen;
+        machtUnverwundbar = false;
+        kSymbol = new KRUEMELSYMBOL(positionX, positionY);
     }
     
-    boolean machtVerwundbarGeben()
-    {
-        // tragen Sie hier den Code ein
-        return machtVerwundbar;
+    void MachtUnverwundbarSetzen(boolean machtUnverwundbarNeu){
+        machtUnverwundbar = machtUnverwundbarNeu;
+    }
+
+    boolean MachtUnverwundbarGeben(){
+      return   machtUnverwundbar;
     }
 }

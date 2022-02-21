@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=LABYRINTH
 comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ LABYRINTH.\r\n\ \r\n\ @author\ Lukas\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
-comment1.params=
-comment1.target=LABYRINTH()
+comment1.params=hoeheNeu\ breiteNeu
+comment1.target=LABYRINTH(int,\ int)
 comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ LABYRINTH\r\n
 comment2.params=
 comment2.target=void\ GaengeErstellen()
